@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kurale', sans-serif;
+    color: #a5d4e2;
+    background-color: #d8e6f4; /* pastel blue */
+    height: 100%;
+   overflow-y: hidden;
+}
+h1{
+    font-size: 30px;
+}
+
+header {
+    background-color: rgb(84, 161, 146); /* pastel green */
+    text-align: center;
+    padding: 1px;
+}
+
+nav {
+    background-color:rgb(84, 161, 146); /* light blue */
+    padding: 10px;
+    
+}
+
+nav button {
+    text-decoration: none;
+    font-family: 'Kurale', sans-serif;
+    color:  #f2f6fc;
+    position: "right";
+    padding: 9px 17px;
+    background-color:rgb(84, 161, 146);
+    border-color:rgb(84, 161, 146);
+    border-radius: 9px;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(https://images.indianexpress.com/2023/08/organ-donation.jpg);
+    height:517px;
+    color: #1e3a69;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 70px;
+}
+
+main {
+    flex: 2;
+    padding: 20px;
+}
+footer {
+    background-color:rgb(84, 161, 146); /* pastel green */
+    color:  #ebeef3;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+p{
+    font-size: 20px;
+    line-height-step: 10px;
+} 

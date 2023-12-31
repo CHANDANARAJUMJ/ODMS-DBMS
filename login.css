@@ -1,0 +1,111 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color:  #1e3a69;
+    font-family: 'Kurale', sans-serif;
+}
+nav {
+    background-color:rgb(84, 161, 146); /* light blue */
+    padding: 10px;
+}
+
+nav button {
+    text-decoration: none;
+    font-family: 'Kurale', sans-serif;
+    color:  #eef1f7;
+    position: "right";
+    padding: 9px 17px;
+    background-color:rgb(84, 161, 146);
+    border-color:rgb(84, 161, 146);
+    border-radius: 9px;
+    background-size: cover;
+}
+.login-container {
+    margin: 0 auto;
+    padding: 7.5px;
+    padding-right: 90px;
+    background-image: url(https://img.freepik.com/premium-photo/world-kidney-day-woman-holding-kidney-shaped-paper-blue-background-national-organ-donor-day_533125-656.jpg);
+    height: 613px;
+    /*width: 100%;*/
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.login-container h3 {
+    font-family: 'Kurale', sans-serif;
+    color:  #153060;
+    font-size: 30px;
+    padding-left: 110px;
+    text-align: right;
+    
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    gap: 3px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color:  #153060;
+}
+
+input {
+    text-align: center;
+    width: 390px;
+    padding: 8px;
+    background-color: rgb(229, 245, 242);
+    border: solid rgb(84, 161, 146);
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 16px;
+}
+.in {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(229, 245, 242);
+    border: solid rgb(84, 161, 146);
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 406px;
+    font-family: 'Kurale', sans-serif;
+    background-color:  rgb(84, 161, 146);
+    color: #edf4fa;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.signup-btn {
+    width: 100px;
+    font-family: 'Kurale', sans-serif;
+    background-color:  rgb(84, 161, 146);
+    color: #edf4fa;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.login-btn:hover {
+    background-color:  rgb(119, 206, 188);
+}
