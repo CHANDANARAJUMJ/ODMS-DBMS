@@ -1,4 +1,4 @@
-                                                                                                Organ Donation Management System
+                                                                    Organ Donation Management System
 
 1.Project Title & Description : OrganEase: Streamlining organ donation management for efficient allocation and tracking.
 2.Installation Instructions : Download and install XAMPP by following the installation wizard prompts.
